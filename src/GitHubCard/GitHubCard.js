@@ -1,14 +1,19 @@
+// import { render, screen } from '@testing-library/react';
+// import App from './App';
+import React from 'react'
+// import renderer from 'react-test-renderer'
+// import GitHubCard from './GitHubCard';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import renderer from 'react-test-renderer'
+
 function GitHubCard() {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src="MeoYo.jpg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>David Miguel Salvat</Card.Title>
         <Card.Text>
-          David Miguel Salvat ...Musical Coder
+        The musical coder
         </Card.Text>
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
@@ -16,4 +21,6 @@ function GitHubCard() {
   );
 }
 
-export default GitHubCard;
+
+
+export default GitHubCard

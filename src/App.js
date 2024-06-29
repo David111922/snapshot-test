@@ -1,16 +1,16 @@
  import React from 'react'
  import logo from './logo.svg';
 import './App.css';
-import GitHubCard from './GitHubCard/GitHubCard'
+import GitHubCard from './GitHubCard/GitHubCard';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p><h2> failsafe</h2>
+        </p><h2> failsafe-falstaff</h2>
 
         <a
           className="App-link"
@@ -21,6 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <GitHubCard/>
     </div>
   );
 }

@@ -20,7 +20,7 @@ exports[`renders a snapshot 1`] = `
        and save to reload.
     </p>
     <h2>
-       failsafe
+       failsafe-falstaff
     </h2>
     <a
       className="App-link"
