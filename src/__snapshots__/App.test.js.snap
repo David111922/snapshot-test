@@ -4,32 +4,39 @@ exports[`renders a snapshot 1`] = `
 <div
   className="App"
 >
-  <header
-    className="App-header"
+  <div
+    className="card"
+    style={
+      Object {
+        "width": "18rem",
+      }
+    }
   >
     <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
+      className="card-img-top"
+      src="MeoYo.jpg"
     />
-    <p>
-      Edit 
-      <code>
-        src/App.js
-      </code>
-       and save to reload.
-    </p>
-    <h2>
-       failsafe-falstaff
-    </h2>
-    <a
-      className="App-link"
-      href="https://reactjs.org"
-      rel="noopener noreferrer"
-      target="_blank"
+    <div
+      className="card-body"
     >
-      Learn React
-    </a>
-  </header>
+      <div
+        className="card-title h5"
+      >
+        David Miguel Salvat
+      </div>
+      <p
+        className="card-text"
+      >
+        The musical coder
+      </p>
+      <button
+        className="btn btn-primary"
+        disabled={false}
+        type="button"
+      >
+        Go somewhere
+      </button>
+    </div>
+  </div>
 </div>
 `;
